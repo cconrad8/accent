@@ -1,0 +1,2 @@
+type,study.study_id,study_admin_id,organism_species,adult_or_childhood_study,file_types_and_format,number_of_participants,number_of_samples,id,study.id
+study_admin,phs003519,phs003519_admin,Human,Pediatric,NA,NA,NA,1be6e7a4-97d2-5995-9b75-60c18753f3c8,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7

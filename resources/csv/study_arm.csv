@@ -1,0 +1,3 @@
+type,study.study_id,study_arm_id,study_arm_description,clinical_trial_identifier,clinical_trial_repository,id,study.id
+study_arm,phs003519,arm_2,NA,NCT01109394,ClinicalTrials.gov,0ac685fe-d29b-5d4b-85c7-ffaf354c85f4,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7
+study_arm,phs003519,arm_1,NA,NCT00924196,ClinicalTrials.gov,b5b05ffc-da41-5d07-a06e-7c4adb99f592,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7

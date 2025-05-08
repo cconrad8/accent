@@ -1,0 +1,5 @@
+type,study.study_id,publication_id,pubmed_id,id,study.id
+publication,phs003519,pub_2,37167059,345e1097-1666-56a2-8975-8360326236de,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7
+publication,phs003519,pub_3,36130486,53a45027-7b84-5326-8fa7-682564ca317c,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7
+publication,phs003519,pub_1,36134665,8dde6a73-e0d7-5221-b4a8-7670ff2ec8cc,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7
+publication,phs003519,pub_4,34010628,e0b4e201-e76a-523b-aae7-422a576df8ee,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7

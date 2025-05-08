@@ -1,0 +1,3 @@
+type,study.study_id,study_personnel_id,personnel_name,personnel_type,email_address,institution,orcid,crdc_id,id,study.id
+study_personnel,phs003519,phs003519_personnel_2,"Xiyuan Zhang, PhD",Data Submitter,xiyuan.zhang@nih.gov,National Cancer Institute,Not Available,NA,87a95502-54ab-5b21-9081-ebf13731fddb,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7
+study_personnel,phs003519,phs003519_personnel_1,"Jack F. Shern, MD",PI,john.shern@nih.gov,National Cancer Institute,https://orcid.org/0000-0001-5579-7625,NA,8aa2bd9f-85c8-565a-a6ca-82fb22adc7a0,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7

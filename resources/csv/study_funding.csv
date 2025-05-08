@@ -1,0 +1,2 @@
+type,study.study_id,study_funding_id,funding_agency,grant_id,funding_source_program_name,id,study.id
+study_funding,phs003519,phs003519_fund,National Cancer Institute,ZIDBC012137,Childhood Cancer Data Initiative,edaebfff-3e9f-52e9-8579-d7c45f65bd8c,2495f9a5-c40d-5daf-ad9b-d9af01ef40a7
