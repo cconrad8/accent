@@ -1,0 +1,1468 @@
+<http://syn.org/gdc/MultiplexMicroscopy> a <http://syn.org/Template> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/MultiplexMicroscopy/type> <http://syn.org/defaultValue> "MultiplexMicroscopy" .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/type> .
+<http://syn.org/2894822a-d37b-4342-abbf-d70d31681126>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/4a4e89d6-8a97-4ee5-a557-8c626d7b43eb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/MultiplexMicroscopy_id> .
+<http://syn.org/17939421-f0fd-4031-8fac-4dc99a2c0b2a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/MultiplexMicroscopy_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/acquisition_method_type> .
+<http://syn.org/1c6b214e-43e6-4e0b-89e6-055463b80f94>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/acquisition_method_type> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/tumor_tissue_type> .
+<http://syn.org/a30c9848-7ec6-4c46-9dd1-5c79f70f7b77>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/tumor_tissue_type> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/tissue_fixative> .
+<http://syn.org/1397ff40-9aa8-43f0-9d2d-9abaa7881392>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/tissue_fixative> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/embedding_medium> .
+<http://syn.org/a5aaea7b-4f71-4630-8ae8-efe44eabf7d3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/embedding_medium> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/staining_method> .
+<http://syn.org/00b0eb34-797e-4cc7-a4d6-fd156141008a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/staining_method> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/objective> .
+<http://syn.org/8fc21177-45a2-4a28-a272-efa9acd3bd03>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/objective> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/nominal_magnification> .
+<http://syn.org/b056cefc-0c44-4ac2-b781-29a20886cc1e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/nominal_magnification> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/immersion> .
+<http://syn.org/498062e3-8e61-466c-9bf6-764664321cdb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/immersion> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/lens_numerical_aperture> .
+<http://syn.org/a354bc53-f35e-4dbe-91ad-695d17db96bf>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/lens_numerical_aperture> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/working_distance> .
+<http://syn.org/6d6801b0-fa07-4573-9603-5251c1438efc>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/working_distance> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/imaging_assay_type> .
+<http://syn.org/7632aee8-a2e6-46d4-90ca-3dfa0b7a6ff2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/imaging_assay_type> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/pyramid> .
+<http://syn.org/e7683b1b-0d9d-4ea3-bbfd-0ddac4031dad>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/pyramid> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/physical_size_x> .
+<http://syn.org/2cf43b0c-1730-4d66-93b8-a786d200fea3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/physical_size_x> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/physical_size_y> .
+<http://syn.org/2efb4fd8-5fab-4cbe-a03f-d3f06ce5b9af>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/physical_size_y> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/physical_size_z> .
+<http://syn.org/ad0ba9b9-25c3-4ba7-88c2-d7fea431def4>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/physical_size_z> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/size_c> .
+<http://syn.org/5b1f2c12-352f-440c-a542-a3b50409d1b7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/size_c> ;
+    <http://syn.org/position> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/size_t> .
+<http://syn.org/85462cad-f55d-4ee6-b6b4-92a1b8203500>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/size_t> ;
+    <http://syn.org/position> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/size_x> .
+<http://syn.org/fa97e552-0101-4dab-9856-0a3439c2eefd>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/size_x> ;
+    <http://syn.org/position> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/size_y> .
+<http://syn.org/c9c27cb3-df7e-437e-84e2-5da274f10b97>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/size_y> ;
+    <http://syn.org/position> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/size_z> .
+<http://syn.org/6817e418-623d-4557-9da3-f11ae283cf1d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/size_z> ;
+    <http://syn.org/position> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/channel_metadata_filename> .
+<http://syn.org/56dbde0d-2576-46ec-af40-019151be1199>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/channel_metadata_filename> ;
+    <http://syn.org/position> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/channel_metadata_file_url_in_cds> .
+<http://syn.org/296b3e0c-205b-4aab-8b36-4eb5b7f66704>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/channel_metadata_file_url_in_cds> ;
+    <http://syn.org/position> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/channel_id> .
+<http://syn.org/63bf8af6-1cb9-4ae9-9e07-1f1dac14c0cb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/channel_id> ;
+    <http://syn.org/position> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/channel_name> .
+<http://syn.org/66d377d7-2f46-4c6d-9794-c5ad9a9c5cc5>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/channel_name> ;
+    <http://syn.org/position> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/cycle_number> .
+<http://syn.org/6e2b4a0f-6aca-419b-8383-4be5af8a7497>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/cycle_number> ;
+    <http://syn.org/position> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/sub_cycle_number> .
+<http://syn.org/4b038c02-9042-42ab-9ded-09ebff6b86f1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/sub_cycle_number> ;
+    <http://syn.org/position> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/target_name> .
+<http://syn.org/8adbf1ec-9d03-479d-b02f-7dd601fe5edd>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/target_name> ;
+    <http://syn.org/position> "29"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/antibody_name> .
+<http://syn.org/aaf3a34b-26d7-4dc7-b83c-1a5a76b8a19d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/antibody_name> ;
+    <http://syn.org/position> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/rrid_identifier> .
+<http://syn.org/2d11c58d-8dd7-4250-9318-176af00372ff>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/rrid_identifier> ;
+    <http://syn.org/position> "31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/fluorophore> .
+<http://syn.org/2d6413c8-d920-45ae-ab3b-a36e6b64edb3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/fluorophore> ;
+    <http://syn.org/position> "32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/clone> .
+<http://syn.org/27840674-a8d3-4d40-aa8d-2a29f57f077c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/clone> ;
+    <http://syn.org/position> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/lot> .
+<http://syn.org/3a686d96-1c6a-470c-9b74-53da1e320d9e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/lot> ;
+    <http://syn.org/position> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/catalog_number> .
+<http://syn.org/3bb3ba0b-6ebc-4da7-9f0f-489d7501472c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/catalog_number> ;
+    <http://syn.org/position> "35"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/excitation_wavelength> .
+<http://syn.org/5dda288d-7c7d-443b-a99c-663bf3e7ad89>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/excitation_wavelength> ;
+    <http://syn.org/position> "36"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/emission_wavelength> .
+<http://syn.org/b3159177-2948-40d8-b251-6dcb09d3c164>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/emission_wavelength> ;
+    <http://syn.org/position> "37"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/excitation_bandwidth> .
+<http://syn.org/51715caf-e259-4881-b3a3-1d27d179ab73>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/excitation_bandwidth> ;
+    <http://syn.org/position> "38"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/emission_bandwidth> .
+<http://syn.org/71ce82c1-afc8-41df-abce-a57d87fabe1b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/emission_bandwidth> ;
+    <http://syn.org/position> "39"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/metal_isotope_element_abbreviation> .
+<http://syn.org/309580b2-1d09-4e10-84ba-fb5b45606af3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/metal_isotope_element_abbreviation> ;
+    <http://syn.org/position> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/metal_isotope_element_mass> .
+<http://syn.org/5963645a-d679-462a-8dcd-f364b0472907>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/metal_isotope_element_mass> ;
+    <http://syn.org/position> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/oligo_barcode_upper_strand> .
+<http://syn.org/5c88799c-8999-4ae0-a312-b42426681a23>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/oligo_barcode_upper_strand> ;
+    <http://syn.org/position> "42"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/oligo_barcode_lower_strand> .
+<http://syn.org/31de5492-ef91-4ba1-9ccb-ff1c0b4bfca0>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/oligo_barcode_lower_strand> ;
+    <http://syn.org/position> "43"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/dilution> .
+<http://syn.org/954d161f-0201-4a88-8a8d-0d67394e489e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/dilution> ;
+    <http://syn.org/position> "44"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/MultiplexMicroscopy> <http://syn.org/hasColumn> <http://syn.org/gdc/MultiplexMicroscopy/concentration> .
+<http://syn.org/a0c4998f-d651-47f9-ab08-d1a2ead6fa4b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/MultiplexMicroscopy> ;
+    <http://syn.org/column> <http://syn.org/gdc/MultiplexMicroscopy/concentration> ;
+    <http://syn.org/position> "45"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> a <http://syn.org/Template> .
+<http://syn.org/gdc/sample> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/sample/type> <http://syn.org/defaultValue> "sample" .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/type> .
+<http://syn.org/9b7e9f7f-cbff-48e9-acf1-fe9cb80674db>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/study_participant_id> .
+<http://syn.org/83fe984e-6a53-4151-aa7d-677238b08b73>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/study_participant_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_id> .
+<http://syn.org/6b3307dd-4b80-4ed0-9ba3-78b31435ff89>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_type> .
+<http://syn.org/953e2443-9f19-4eec-be23-ad4cf1682609>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_type> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_description> .
+<http://syn.org/dd0a61a9-a8d9-423f-b409-bfb00e46df38>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_description> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_type_category> .
+<http://syn.org/db6d9400-7caa-41ed-9244-b8da5f1c55ad>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_type_category> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_tumor_status> .
+<http://syn.org/c20e278b-04bf-44c8-823a-38a6a945b3ef>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_tumor_status> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_anatomic_site> .
+<http://syn.org/8a6e55cd-2bcc-412a-b9db-4b312e4f5fe6>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_anatomic_site> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_age_at_collection> .
+<http://syn.org/faeb82d7-e31f-4768-8806-00a5fc295471>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_age_at_collection> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/derived_from_specimen> .
+<http://syn.org/87bd0aed-0ff1-4aa1-afad-67df9fc3277e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/derived_from_specimen> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/sample> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/biosample_accession> .
+<http://syn.org/baaeab93-18dd-4f7c-9793-0e33f491df3e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/sample> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/biosample_accession> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> a <http://syn.org/Template> .
+<http://syn.org/gdc/program> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/program/type> <http://syn.org/defaultValue> "program" .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/type> .
+<http://syn.org/c4c2e009-eb30-4b2c-8e91-0df34217c8c0>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_name> .
+<http://syn.org/c418c789-3f7a-4528-942b-a70124718213>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_name> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_acronym> .
+<http://syn.org/de2cea8e-8e05-4085-8304-170087fc913f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_acronym> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_short_description> .
+<http://syn.org/5b082ff5-f3a9-4e0d-8732-56bdd85565cc>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_short_description> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_full_description> .
+<http://syn.org/b4c28c03-f7f2-41ea-bf53-258623abcfb0>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_full_description> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_external_url> .
+<http://syn.org/9c7f13bf-9386-48a3-9da4-0370b16accec>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_external_url> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_sort_order> .
+<http://syn.org/87cc72ab-90ae-4db6-bff4-2e77ba41ca0e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_sort_order> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_short_name> .
+<http://syn.org/8a215d9a-763e-4d7f-bc6c-9e0fb9849f30>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_short_name> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/program> <http://syn.org/hasColumn> <http://syn.org/gdc/program/institution> .
+<http://syn.org/2bfda310-3c1f-480e-8dc8-455f663caf93>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/program> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/institution> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> a <http://syn.org/Template> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities/type> <http://syn.org/defaultValue> "NonDICOMradiologyAllModalities" .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/type> .
+<http://syn.org/3241a9d7-ce6d-4cbe-8276-6aa35a922ca7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/0c27057a-b722-437c-97b4-f83f173e156f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/NonDICOMradiologyAllModalities_id> .
+<http://syn.org/3e4db5d1-bc54-4ad0-8a08-132d1b09dd12>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/NonDICOMradiologyAllModalities_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_description> .
+<http://syn.org/58d6be05-61e5-4056-ba55-cf2bc26210e1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_description> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_admittingDiagnosisCode> .
+<http://syn.org/9eb09fa6-695b-43c9-8642-12cf4263414f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_admittingDiagnosisCode> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_nonAcquisitionModalitiesInStudyCode> .
+<http://syn.org/0ade84c4-d02b-4445-8be3-34f516b9b686>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_nonAcquisitionModalitiesInStudyCode> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_lossyImageCompressionIndicator> .
+<http://syn.org/7e821bb5-1341-4a37-9689-a3c548170e3e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_lossyImageCompressionIndicator> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_summary> .
+<http://syn.org/691599d8-c19c-4e96-b616-11a807cc6e67>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_summary> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_primaryAnatomicSiteCode> .
+<http://syn.org/7fad8d91-866a-434b-9f16-d9512dad3e80>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_primaryAnatomicSiteCode> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_acquisitionTypeCode> .
+<http://syn.org/82c65f84-8d3b-4030-9e48-29903fc350d6>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_acquisitionTypeCode> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_cardiacSynchronizationTechniqueCode> .
+<http://syn.org/3cbb6334-540a-46a1-9031-e2d716173f6d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_cardiacSynchronizationTechniqueCode> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_dataCollectionDiameter> .
+<http://syn.org/e6df94e3-8a80-4aad-9775-2dfbcf4f753c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_dataCollectionDiameter> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_respiratoryMotionTechniqueCode> .
+<http://syn.org/d72ec063-f0cd-4472-baf7-519f1b10a224>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_respiratoryMotionTechniqueCode> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_bodyPositionCode> .
+<http://syn.org/854b2799-0578-4d27-8463-12cde9b61e34>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_bodyPositionCode> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_algorithmCode> .
+<http://syn.org/7e94f2ba-07d6-4413-870f-6de41db3c84f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_algorithmCode> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionFieldOfViewHeight> .
+<http://syn.org/6d69dd58-da1d-4534-8a03-1e7922ce16bf>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionFieldOfViewHeight> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionFieldOfViewWidth> .
+<http://syn.org/8f5c4d65-c377-4c25-a3bf-92eaebf7066f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionFieldOfViewWidth> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionDiameter> .
+<http://syn.org/79b9be77-dc94-4231-a210-9b0538fdca6e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionDiameter> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_sliceThickness> .
+<http://syn.org/295a61fe-47c3-4714-a4b0-80445e4dbc83>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_sliceThickness> ;
+    <http://syn.org/position> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMradiologyAllModalities> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionInterval> .
+<http://syn.org/61f4dc62-a5e0-4881-ac97-33402bd0bb1a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMradiologyAllModalities> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMradiologyAllModalities/performed_imaging_study_reconstructionInterval> ;
+    <http://syn.org/position> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> a <http://syn.org/Template> .
+<http://syn.org/gdc/participant> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/participant/type> <http://syn.org/defaultValue> "participant" .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/type> .
+<http://syn.org/5e46674d-c0c5-40ca-b082-3bdbc6805d93>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/study/phs_accession> .
+<http://syn.org/7c1c13c6-8e2c-4091-bdd2-9eac66d86e51>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/phs_accession> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/study_participant_id> .
+<http://syn.org/0540b056-7501-4c97-bcda-6270d35ecd8b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/study_participant_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/participant_id> .
+<http://syn.org/ebc1b07a-2cfd-4e9f-a9d1-d181bbdfbdeb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/participant_id> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/race> .
+<http://syn.org/6bbf6565-feb0-4aba-8049-0d263efaaf8e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/race> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/sex> .
+<http://syn.org/4672dfac-827d-4070-a318-4f5d70cadfe2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/sex> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/ethnicity> .
+<http://syn.org/d13b17cb-7c4f-42e2-9eac-854968901f9a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/ethnicity> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/participant> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/dbGaP_subject_id> .
+<http://syn.org/051a4d96-6160-4c06-9729-6e46c4a64d97>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/participant> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/dbGaP_subject_id> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> a <http://syn.org/Template> .
+<http://syn.org/gdc/treatment> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/treatment/type> <http://syn.org/defaultValue> "treatment" .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/treatment/type> .
+<http://syn.org/db1bcc1c-02de-4bdc-84e6-0b391775e746>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/treatment/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/study_participant_id> .
+<http://syn.org/6c9596b4-f62b-4873-ab5a-c66bb73b8ad8>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/study_participant_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/treatment/treatment_id> .
+<http://syn.org/63e97332-959a-4fca-b36a-a07520937e4b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/treatment/treatment_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/treatment/treatment_type> .
+<http://syn.org/8556f086-b48b-49b3-a841-16fddeb01c50>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/treatment/treatment_type> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/treatment/days_to_treatment> .
+<http://syn.org/076d48b1-a8bd-41c1-91c4-3f28f0ae0bcb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/treatment/days_to_treatment> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/treatment/therapeutic_agents> .
+<http://syn.org/eba59ea8-7be1-4786-9d30-4918eb06b040>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/treatment/therapeutic_agents> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/treatment> <http://syn.org/hasColumn> <http://syn.org/gdc/treatment/response> .
+<http://syn.org/d47968af-cdd1-44ba-b9ff-277b976e30aa>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/treatment> ;
+    <http://syn.org/column> <http://syn.org/gdc/treatment/response> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> a <http://syn.org/Template> .
+<http://syn.org/gdc/genomic_info> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/genomic_info/type> <http://syn.org/defaultValue> "genomic_info" .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/type> .
+<http://syn.org/8973afa5-f5bd-4dbf-a35e-a940ff3ff52b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_id> .
+<http://syn.org/549f43d8-3070-405b-9aeb-96999c24c4a7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/genomic_info_id> .
+<http://syn.org/a7bab256-8176-4d75-89e4-4365b46293d2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/genomic_info_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/library_id> .
+<http://syn.org/cdfecfb4-82b6-4d5b-ba3d-fd1a785f64e7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/library_id> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/bases> .
+<http://syn.org/5f1c2f89-7cbb-4425-8220-5f8e4ecc34ba>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/bases> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/number_of_reads> .
+<http://syn.org/18cdb1e1-9fb9-4ebd-8f94-0512f25dfb32>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/number_of_reads> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/avg_read_length> .
+<http://syn.org/cb2ea156-038c-4e6d-8a4f-b534b6168e41>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/avg_read_length> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/coverage> .
+<http://syn.org/e28971dd-b0c5-4ea2-b2ca-cba52b79c6d7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/coverage> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/reference_genome_assembly> .
+<http://syn.org/6c038c5e-b716-4ae8-b7d9-1244ebd4ba42>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/reference_genome_assembly> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/custom_assembly_fasta_file_for_alignment> .
+<http://syn.org/f2c8037a-7b5c-432a-a076-85f2cbaf5379>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/custom_assembly_fasta_file_for_alignment> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/design_description> .
+<http://syn.org/106df0ad-c7e3-47f2-aa3e-7ab7165d4da4>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/design_description> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/library_strategy> .
+<http://syn.org/3cd2502c-538f-4cdb-a5d4-4146711d1b19>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/library_strategy> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/library_layout> .
+<http://syn.org/962edadd-cc02-492b-ac3b-adcfdc9c92ff>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/library_layout> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/library_selection> .
+<http://syn.org/42914c5b-df2b-4cd5-a12e-43f061c61997>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/library_selection> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/platform> .
+<http://syn.org/651fda3a-f7c4-4141-afa4-bc0abb243d27>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/platform> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/instrument_model> .
+<http://syn.org/7fea2ad1-acb4-45a2-a410-f6b3ef022e0d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/instrument_model> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/sequence_alignment_software> .
+<http://syn.org/e1ced80f-dd35-4ece-8c8d-b7c704c5b1f7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/sequence_alignment_software> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/reporter_label> .
+<http://syn.org/226097d1-7e41-4309-b902-a826e916ab96>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/reporter_label> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/methylation_platform> .
+<http://syn.org/73eff49c-c237-47d4-9375-d8f9107ae993>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/methylation_platform> ;
+    <http://syn.org/position> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/library_source_material> .
+<http://syn.org/fc6017eb-91a4-40ca-8720-0be1e9f4ddd3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/library_source_material> ;
+    <http://syn.org/position> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/genomic_info> <http://syn.org/hasColumn> <http://syn.org/gdc/genomic_info/library_source_molecule> .
+<http://syn.org/765f7557-4e70-410a-9818-ac344f73d023>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/genomic_info> ;
+    <http://syn.org/column> <http://syn.org/gdc/genomic_info/library_source_molecule> ;
+    <http://syn.org/position> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMPETimages> a <http://syn.org/Template> .
+<http://syn.org/gdc/NonDICOMPETimages> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/NonDICOMPETimages/type> <http://syn.org/defaultValue> "NonDICOMPETimages" .
+<http://syn.org/gdc/NonDICOMPETimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMPETimages/type> .
+<http://syn.org/f1d06ecc-851e-414f-b981-fc33b4f8210b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMPETimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMPETimages/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMPETimages> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/465d02ea-e756-4056-a717-ccaae284884e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMPETimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMPETimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMPETimages/NonDICOMPETimages_id> .
+<http://syn.org/893b12f2-0582-4f07-a8cd-703a020ce593>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMPETimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMPETimages/NonDICOMPETimages_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMPETimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMPETimages/PETImagingAcquisitionProtocolElement_gantryDetectorTilt> .
+<http://syn.org/d9987da8-7612-4024-ba67-debbfeac4eaf>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMPETimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMPETimages/PETImagingAcquisitionProtocolElement_gantryDetectorTilt> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMPETimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMPETimages/Radiopharmaceutical_radionuclideCode> .
+<http://syn.org/ff45b92f-53fa-4d9b-a7a1-4ef4d1d66b4a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMPETimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMPETimages/Radiopharmaceutical_radionuclideCode> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> a <http://syn.org/Template> .
+<http://syn.org/gdc/proteomic> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/proteomic/type> <http://syn.org/defaultValue> "proteomic" .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/type> .
+<http://syn.org/d5767cf0-a2e1-437a-90cc-19e3661f28db>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_id> .
+<http://syn.org/ce22b5a9-1faa-40a8-a5f9-387ac13041ca>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/proteomic_info_id> .
+<http://syn.org/165e1c45-8c37-43e3-8d98-f2b7b2eab308>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/proteomic_info_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/aliquot_id> .
+<http://syn.org/0a3608c3-ce86-4f39-92e1-0207f5fae1d2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/aliquot_id> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/analytical_fractions> .
+<http://syn.org/f9f2e109-e5da-4852-a95c-0da5027681d3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/analytical_fractions> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/instrument_make> .
+<http://syn.org/1e6cd477-537a-441b-8638-a848d0c6dc46>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/instrument_make> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/proteomic_instrument_model> .
+<http://syn.org/35ca8f76-2c35-4208-a7a7-5699ab0d2a0c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/proteomic_instrument_model> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/proteomic_design_description> .
+<http://syn.org/b243cd29-715d-4934-8633-96e8d1386f8e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/proteomic_design_description> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/proteomic> <http://syn.org/hasColumn> <http://syn.org/gdc/proteomic/manufacturer_model_name> .
+<http://syn.org/19acf6bb-38d1-439d-993a-6a8fd6d76b5b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/proteomic> ;
+    <http://syn.org/column> <http://syn.org/gdc/proteomic/manufacturer_model_name> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> a <http://syn.org/Template> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/NonDICOMpathologyImages/type> <http://syn.org/defaultValue> "NonDICOMpathologyImages" .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/type> .
+<http://syn.org/4e5933af-0977-48f3-afd8-756e79802b8d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/4523c4d4-2d09-43ac-836b-7239f84e6692>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/NonDICOMpathologyImages_id> .
+<http://syn.org/4a65f4a1-f713-4303-946a-07cc16d6c457>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/NonDICOMpathologyImages_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/acquisition_method_type> .
+<http://syn.org/478bca51-f7d2-4bc3-93fa-4bf3675afcc5>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/acquisition_method_type> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/tumor_tissue_type> .
+<http://syn.org/f1d8db5e-5f45-4d54-9177-cb87d6fe525a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/tumor_tissue_type> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/tissue_fixative> .
+<http://syn.org/aac8983d-f8cb-4945-a98a-93d474404d3a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/tissue_fixative> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/embedding_medium> .
+<http://syn.org/cac878ea-ad56-459a-ba3d-f47a5263e373>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/embedding_medium> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/staining_method> .
+<http://syn.org/c58c63b5-4c53-4d01-bcbf-b0015c936efe>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/staining_method> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/objective> .
+<http://syn.org/733e0302-2ab3-48de-a243-9163e163d6b9>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/objective> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/nominal_magnification> .
+<http://syn.org/e4f2847d-2f58-4854-b2e8-4af6a25a9ee2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/nominal_magnification> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/immersion> .
+<http://syn.org/6e31fc5d-0bc2-4c6b-acdc-22f1e381ba29>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/immersion> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMpathologyImages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMpathologyImages/lens_numerical_aperture> .
+<http://syn.org/356708d4-fb09-40c0-9109-40c8713cfbda>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMpathologyImages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMpathologyImages/lens_numerical_aperture> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> a <http://syn.org/Template> .
+<http://syn.org/gdc/diagnosis> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/diagnosis/type> <http://syn.org/defaultValue> "diagnosis" .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/type> .
+<http://syn.org/250181e8-2563-4aa7-bc19-af7cd6def88c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/study_participant_id> .
+<http://syn.org/99b11321-ea45-4145-8d61-9ebbb854a9a9>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/study_participant_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/study_diagnosis_id> .
+<http://syn.org/b0f2e3a8-06ef-4337-9f99-30075cd3e67c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/study_diagnosis_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/diagnosis_id> .
+<http://syn.org/12d05fee-6ba4-403f-ad3f-f6791d10ac1c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/diagnosis_id> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/disease_type> .
+<http://syn.org/2e9dbd9f-e811-4d24-be71-f453f723388f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/disease_type> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/vital_status> .
+<http://syn.org/8574e9c3-b7ae-4af1-a502-ea87c6f0741b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/vital_status> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/primary_diagnosis> .
+<http://syn.org/c347e72e-995a-4883-b41c-faf5a254e59c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/primary_diagnosis> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/primary_site> .
+<http://syn.org/f66dfcb3-a8a1-4699-8e09-40f02c290ae9>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/primary_site> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/age_at_diagnosis> .
+<http://syn.org/c26ebb31-0065-47f2-9c6c-daf71c3753cf>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/age_at_diagnosis> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/tumor_grade> .
+<http://syn.org/1aa254f4-ff0f-4e24-a836-5478ecbbbafd>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/tumor_grade> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/tumor_stage_clinical_m> .
+<http://syn.org/8f521a03-1984-44d7-8210-c4fa7bfbfded>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/tumor_stage_clinical_m> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/tumor_stage_clinical_n> .
+<http://syn.org/c9dcd35d-1ea3-4138-9cc4-96b0840d1503>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/tumor_stage_clinical_n> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/tumor_stage_clinical_t> .
+<http://syn.org/745a00ab-ad8d-4491-8abc-aed5a096f67e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/tumor_stage_clinical_t> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/morphology> .
+<http://syn.org/77aecc94-b908-4b29-b357-b4d435576464>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/morphology> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/incidence_type> .
+<http://syn.org/cd54957b-132f-4c6f-b798-01d97fd7ad15>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/incidence_type> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/progression_or_recurrence> .
+<http://syn.org/2390cf3a-54f6-42ea-aedb-b190e3b3930a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/progression_or_recurrence> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/days_to_recurrence> .
+<http://syn.org/dce48dd8-a128-4b49-8cc1-e857b410034a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/days_to_recurrence> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/days_to_last_followup> .
+<http://syn.org/bb1398d8-3d31-4350-ad69-10397fa7cffb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/days_to_last_followup> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/last_known_disease_status> .
+<http://syn.org/87d43758-504c-4ed1-b5af-4da3ec029a51>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/last_known_disease_status> ;
+    <http://syn.org/position> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/days_to_last_known_status> .
+<http://syn.org/34c036d6-1180-4372-b9ca-698068059bf3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/days_to_last_known_status> ;
+    <http://syn.org/position> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/tissue_or_organ_of_origin> .
+<http://syn.org/1eb9b7e1-28d5-46d2-a3d9-11c4001b5e79>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/tissue_or_organ_of_origin> ;
+    <http://syn.org/position> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/site_of_resection_or_biopsy> .
+<http://syn.org/0493806a-61df-4337-a5c9-7dfc3bdbb961>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/site_of_resection_or_biopsy> ;
+    <http://syn.org/position> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/diagnosis> <http://syn.org/hasColumn> <http://syn.org/gdc/diagnosis/days_to_last_known_disease_status> .
+<http://syn.org/a6b2771b-84e6-4dd4-9034-da2e6e1963d1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/diagnosis> ;
+    <http://syn.org/column> <http://syn.org/gdc/diagnosis/days_to_last_known_disease_status> ;
+    <http://syn.org/position> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> a <http://syn.org/Template> .
+<http://syn.org/gdc/study> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/study/type> <http://syn.org/defaultValue> "study" .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/type> .
+<http://syn.org/815ccf03-4482-467b-a0db-5f1954724f50>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/program/program_acronym> .
+<http://syn.org/265abe46-4777-4e1d-82f7-356bfd477c89>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/program/program_acronym> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_name> .
+<http://syn.org/306b284d-04e6-428c-864b-a6ce09371d57>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_name> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_acronym> .
+<http://syn.org/c5906cf5-d4ef-432c-8b8e-fe9d9552cd0c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_acronym> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_description> .
+<http://syn.org/9c6fcf2e-00f8-4452-b1dd-1e9e99031e45>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_description> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/short_description> .
+<http://syn.org/2b01c6cc-77fe-4d03-b73e-8ee0da9c77f1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/short_description> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_external_url> .
+<http://syn.org/769d2240-adf9-4ebe-90ed-98c9ce4c1b49>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_external_url> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/primary_investigator_name> .
+<http://syn.org/993c3298-8247-4f28-88f5-908bda9ee8fb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/primary_investigator_name> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/primary_investigator_email> .
+<http://syn.org/dcd6987c-2cb7-47d7-95cc-e274cf2a1d1c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/primary_investigator_email> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/co_investigator_name> .
+<http://syn.org/121078a6-93f4-43e7-bf88-9b06d41c72bc>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/co_investigator_name> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/co_investigator_email> .
+<http://syn.org/ae77a7d6-a722-4d32-94b4-c8247e6bba6e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/co_investigator_email> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/phs_accession> .
+<http://syn.org/afcbecf3-e247-4019-b2c4-4393024a252c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/phs_accession> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/bioproject_accession> .
+<http://syn.org/dccd54ea-59b3-4463-a8d2-59d626b5d5b2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/bioproject_accession> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/index_date> .
+<http://syn.org/b7c5d38f-5bc5-40f2-8d7a-1284fa9419ea>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/index_date> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/cds_requestor> .
+<http://syn.org/6380e45a-d991-4d17-bfee-9c1eb1e61f27>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/cds_requestor> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/funding_agency> .
+<http://syn.org/d222446c-4e2a-477a-8436-6abd536142c2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/funding_agency> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/funding_source_program_name> .
+<http://syn.org/f129e433-1a4c-4dd8-94da-2fdc574d8788>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/funding_source_program_name> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/grant_id> .
+<http://syn.org/e52a18e9-0411-4eb5-906a-d00a038d59ef>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/grant_id> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/clinical_trial_system> .
+<http://syn.org/b232e302-6773-40e5-a66d-b3715551ea6e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/clinical_trial_system> ;
+    <http://syn.org/position> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/clinical_trial_identifier> .
+<http://syn.org/562374ec-f5f1-4d78-a343-5da9bce63619>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/clinical_trial_identifier> ;
+    <http://syn.org/position> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/clinical_trial_arm> .
+<http://syn.org/1d4ab536-964e-48fd-8a9e-14454d6e206e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/clinical_trial_arm> ;
+    <http://syn.org/position> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/organism_species> .
+<http://syn.org/bb8ea04a-3068-44bd-87e8-e96ce1e1b4d3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/organism_species> ;
+    <http://syn.org/position> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/adult_or_childhood_study> .
+<http://syn.org/f2ed1566-eb90-4e3d-8dab-65ff6e986fe9>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/adult_or_childhood_study> ;
+    <http://syn.org/position> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/data_types> .
+<http://syn.org/e5e620ab-8c61-431a-b1ab-2437188fb011>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/data_types> ;
+    <http://syn.org/position> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/file_types> .
+<http://syn.org/cb3312ff-65f8-4dd0-9997-2d795f2a7035>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/file_types> ;
+    <http://syn.org/position> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/data_access_level> .
+<http://syn.org/d379ee06-53a9-42d2-b92b-9e5a308ceaae>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/data_access_level> ;
+    <http://syn.org/position> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/cds_primary_bucket> .
+<http://syn.org/f6aea3c0-35a0-48f4-a1bb-2fe0da0d5e96>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/cds_primary_bucket> ;
+    <http://syn.org/position> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/cds_secondary_bucket> .
+<http://syn.org/54375d2b-6da0-43a4-8f9f-4650d5b632bf>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/cds_secondary_bucket> ;
+    <http://syn.org/position> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/cds_tertiary_bucket> .
+<http://syn.org/304cdbe7-8ed0-4e7e-8d31-99371c8a6906>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/cds_tertiary_bucket> ;
+    <http://syn.org/position> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/number_of_participants> .
+<http://syn.org/d9e31487-95c1-4488-86b8-1f577d014c55>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/number_of_participants> ;
+    <http://syn.org/position> "29"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/number_of_samples> .
+<http://syn.org/205933ca-f0d9-4dfe-88f1-b771108b1436>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/number_of_samples> ;
+    <http://syn.org/position> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_data_types> .
+<http://syn.org/ba6e6184-af1c-4c9e-a199-148e2a88a15e>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_data_types> ;
+    <http://syn.org/position> "31"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/file_types_and_format> .
+<http://syn.org/cb0d85d7-f50e-4441-a518-a45a7c2f7a21>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/file_types_and_format> ;
+    <http://syn.org/position> "32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/size_of_data_being_uploaded> .
+<http://syn.org/f2a55d9c-c410-41ea-8266-d7d7a9aba3f6>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/size_of_data_being_uploaded> ;
+    <http://syn.org/position> "33"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/acl> .
+<http://syn.org/a5672a9b-58ec-4333-8bb3-e67cd79744ed>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/acl> ;
+    <http://syn.org/position> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_access> .
+<http://syn.org/beca0721-e569-4ef8-8689-55f050d0fb14>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_access> ;
+    <http://syn.org/position> "35"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/authz> .
+<http://syn.org/7348f63b-efb7-4fc8-af6e-00248bdcc591>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/authz> ;
+    <http://syn.org/position> "36"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/study_version> .
+<http://syn.org/32a6333d-9d2a-4f5f-9313-448d9ad50bc3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/study_version> ;
+    <http://syn.org/position> "37"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/role_or_affiliation> .
+<http://syn.org/fb88691a-dc0e-448c-b409-2f9c61adcb14>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/role_or_affiliation> ;
+    <http://syn.org/position> "38"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/title> .
+<http://syn.org/add08abe-ebb9-41b6-83c2-a71f5912f826>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/title> ;
+    <http://syn.org/position> "39"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/first_name> .
+<http://syn.org/27e07024-c168-447c-9c44-7e4173eaa2b6>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/first_name> ;
+    <http://syn.org/position> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/middle_name> .
+<http://syn.org/548be8de-b4e1-4867-9efe-3fce6151b7e0>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/middle_name> ;
+    <http://syn.org/position> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/last_name> .
+<http://syn.org/152fd1cd-81ee-4f7c-92b3-243309569642>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/last_name> ;
+    <http://syn.org/position> "42"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/suffix> .
+<http://syn.org/4020d9b6-4cc4-4b5e-9478-cb3cd0ae2354>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/suffix> ;
+    <http://syn.org/position> "43"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/email> .
+<http://syn.org/1c399109-63cc-4b1b-b759-8c173d849310>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/email> ;
+    <http://syn.org/position> "44"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/study> <http://syn.org/hasColumn> <http://syn.org/gdc/study/clinical_trial_repository> .
+<http://syn.org/f884cde9-76a9-41ee-9dbb-c65f13583d31>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/study> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/clinical_trial_repository> ;
+    <http://syn.org/position> "45"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> a <http://syn.org/Template> .
+<http://syn.org/gdc/image> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/image/type> <http://syn.org/defaultValue> "image" .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/type> .
+<http://syn.org/7e09bd8c-f607-478a-a46b-d32b7f542ccc>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_id> .
+<http://syn.org/edffecb6-385e-4b4b-ab36-d52383155b12>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/b9fe2236-78ca-4d35-ba89-68571d1f3337>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/de_identification_method_type> .
+<http://syn.org/f1cb5fd8-12f2-48c7-b033-da0d9be310f5>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/de_identification_method_type> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/de_identification_method_description> .
+<http://syn.org/7fc3868a-318b-4558-ac89-0186e80cffd3>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/de_identification_method_description> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/de_identification_software> .
+<http://syn.org/23d7da8b-3c11-4101-8dd3-441de50da3aa>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/de_identification_software> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/license> .
+<http://syn.org/11c4c5c6-c424-495b-85e2-78a7022c5c5c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/license> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/citation_or_DOI> .
+<http://syn.org/b5121899-961f-4a49-a6ae-ae389673774a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/citation_or_DOI> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/species> .
+<http://syn.org/b02b48b5-9ea3-415b-9c7b-d8267aef8b86>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/species> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/image_modality> .
+<http://syn.org/50d6e5b2-7f02-4a4d-9f7d-8c41166d364a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/image_modality> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/imaging_equipment_manufacturer> .
+<http://syn.org/93fb27b6-3425-4fb8-af24-c3b9fd5c3622>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/imaging_equipment_manufacturer> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/imaging_equipment_model> .
+<http://syn.org/422c5eee-9726-40be-8ae9-6da724f008b6>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/imaging_equipment_model> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/imaging_software> .
+<http://syn.org/38397e4b-732f-4958-9b47-d035bc09d2d9>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/imaging_software> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/imaging_protocol> .
+<http://syn.org/09b789ea-96c7-4849-94f8-f95382bd5d9d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/imaging_protocol> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/organ_or_tissue> .
+<http://syn.org/2e3499a9-f535-4de5-b564-1537bc637361>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/organ_or_tissue> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/performed_imaging_study_typeCode> .
+<http://syn.org/5fff463f-8b45-41c2-8b47-70530375f377>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/performed_imaging_study_typeCode> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/longitudinal_temporal_event_type> .
+<http://syn.org/467e9dd1-121c-4a45-8d7a-bf252ee707a7>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/longitudinal_temporal_event_type> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/image> <http://syn.org/hasColumn> <http://syn.org/gdc/image/longitudinal_temporal_event_offset> .
+<http://syn.org/28a9de34-878d-49d9-92cc-3c40d41f25ca>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/image> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/longitudinal_temporal_event_offset> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> a <http://syn.org/Template> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/NonDICOMCTimages/type> <http://syn.org/defaultValue> "NonDICOMCTimages" .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/type> .
+<http://syn.org/431cb4c7-c17d-4242-b27f-5d8ed60da689>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/8ea5ea1d-eb3b-4a68-95b1-aa3432d33ace>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/NonDICOMCTimages_id> .
+<http://syn.org/cd52efb3-547f-40ea-b329-1367811f15ee>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/NonDICOMCTimages_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_singleCollimationWidth> .
+<http://syn.org/4164038d-80a9-402b-aa92-f29bd0ca2ce6>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_singleCollimationWidth> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_totalCollimationWidth> .
+<http://syn.org/04fad95e-fdf1-41f6-bb95-668f88670797>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_totalCollimationWidth> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_gantryDetectorTilt> .
+<http://syn.org/f3e42f29-2243-458b-97ff-7c721f5a09cc>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_gantryDetectorTilt> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_spiralPitchFactor> .
+<http://syn.org/ba629102-cd24-4654-ae0b-c5e6c908ec8f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_spiralPitchFactor> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_ctdiVol> .
+<http://syn.org/4752049f-cf48-4e19-90a6-b84995a1e104>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_ctdiVol> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_ctdiPhantomTypeCode> .
+<http://syn.org/a670874d-8c46-426c-b3ac-f5f5d8d3e51b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_ctdiPhantomTypeCode> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_kVp> .
+<http://syn.org/6d4cfd09-0f84-4335-8e75-5b545224291c>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_kVp> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_exposureModulationType_Code> .
+<http://syn.org/4d259a9f-57f3-433b-ae3d-11db653dd27a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTAquisitionProtocolElement_exposureModulationType_Code> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTImageReconstructionProtocolElement_convolutionKernel> .
+<http://syn.org/37be2fbb-6395-4134-8ca4-e1de57c0a037>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTImageReconstructionProtocolElement_convolutionKernel> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMCTimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMCTimages/CTImageReconstructionProtocolElement_convolutionKernelGroupCode> .
+<http://syn.org/889b310d-ed03-456e-9244-d5c106640c22>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMCTimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMCTimages/CTImageReconstructionProtocolElement_convolutionKernelGroupCode> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> a <http://syn.org/Template> .
+<http://syn.org/gdc/file> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/file/type> <http://syn.org/defaultValue> "file" .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/type> .
+<http://syn.org/7edeff68-ce06-4211-ba08-5043e10fb732>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/study/phs_accession> .
+<http://syn.org/7104435d-ef86-43fe-88c9-c89aee1e4c73>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/study/phs_accession> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/participant/study_participant_id> .
+<http://syn.org/933fc100-2f71-4d01-bcd5-fd5e3f35b6ac>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/participant/study_participant_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/sample/sample_id> .
+<http://syn.org/47aec1d3-322d-4edb-ae08-abd895231dec>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/sample/sample_id> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_name> .
+<http://syn.org/43e758e9-c253-4de8-8436-7dad8e729960>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_name> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_type> .
+<http://syn.org/3f06c76a-9e69-46ee-b8a5-8421c086366a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_type> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_description> .
+<http://syn.org/6ada307c-039d-4db6-ae12-c95907f7e886>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_description> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_size> .
+<http://syn.org/12bbc393-cd91-4866-941d-fa98ef014d58>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_size> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/md5sum> .
+<http://syn.org/0ee67fd3-9365-40b5-9760-00acf8705b5a>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/md5sum> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/experimental_strategy_and_data_subtypes> .
+<http://syn.org/ca58c1b0-fd14-47ac-9274-63b913ef7441>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/experimental_strategy_and_data_subtypes> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/submission_version> .
+<http://syn.org/4f8d7f0d-1bd4-4528-9fd6-830dbb59cd80>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/submission_version> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/checksum_value> .
+<http://syn.org/9e8c8092-3d7a-4c33-94c5-60f51207c3bc>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/checksum_value> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/checksum_algorithm> .
+<http://syn.org/e9ba0ee3-44c1-4ece-a25d-d5900a1db84f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/checksum_algorithm> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/file_mapping_level> .
+<http://syn.org/184d992c-a09f-463f-b156-c601af5fe895>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/file_mapping_level> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/release_datetime> .
+<http://syn.org/7cd5261a-ee04-4dfa-9124-94630485e752>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/release_datetime> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/file> <http://syn.org/hasColumn> <http://syn.org/gdc/file/is_supplementary_file> .
+<http://syn.org/3e419a74-c08d-40ef-9477-74a317871862>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/file> ;
+    <http://syn.org/column> <http://syn.org/gdc/file/is_supplementary_file> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> a <http://syn.org/Template> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://purl.org/dc/terms/conformsTo> <http://syn.org/gdc> .
+<http://syn.org/gdc/NonDICOMMRimages/type> <http://syn.org/defaultValue> "NonDICOMMRimages" .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/type> .
+<http://syn.org/0e9a32f5-3326-4d68-a796-8e6357786500>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/type> ;
+    <http://syn.org/position> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/image/study_link_id> .
+<http://syn.org/ed0d2850-3617-4a79-a123-8fc05933b95d>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/image/study_link_id> ;
+    <http://syn.org/position> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/NonDICOMMRimages_id> .
+<http://syn.org/691b68be-6e92-4fff-8f7d-7b605ce4a2d8>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/NonDICOMMRimages_id> ;
+    <http://syn.org/position> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_echoPulseSequenceCategoryCode> .
+<http://syn.org/0fcd6e1b-d66d-4f50-9568-fb81f2fd69b1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_echoPulseSequenceCategoryCode> ;
+    <http://syn.org/position> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_diffusionBValue> .
+<http://syn.org/c670f504-9e72-4d7a-a25f-620413712290>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_diffusionBValue> ;
+    <http://syn.org/position> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_diffusionDirectionalityCode> .
+<http://syn.org/e4ba2d29-d1b7-41fb-9862-b9c9e52b0390>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_diffusionDirectionalityCode> ;
+    <http://syn.org/position> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_magneticFieldStrength> .
+<http://syn.org/1b3c6916-a878-41b9-9f03-cf8c603dff34>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_magneticFieldStrength> ;
+    <http://syn.org/position> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_resonantNucleusCode> .
+<http://syn.org/0591816f-9dfb-4186-8e23-8055aea49ce1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_resonantNucleusCode> ;
+    <http://syn.org/position> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_acquisitionContrastCode> .
+<http://syn.org/e5a180dc-040c-4126-88c8-9fe550139342>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_acquisitionContrastCode> ;
+    <http://syn.org/position> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_inversionRecoveryIndicator> .
+<http://syn.org/c31a49cd-bf7d-40c5-9f20-be34ffa15219>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_inversionRecoveryIndicator> ;
+    <http://syn.org/position> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_pulseSequenceName> .
+<http://syn.org/b80f81c4-ac10-4f8d-8c54-fb8c7cba381f>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_pulseSequenceName> ;
+    <http://syn.org/position> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_multipleSpinEchoIndicator> .
+<http://syn.org/fb71a8ea-031c-4ca8-946d-8e1e21a28515>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_multipleSpinEchoIndicator> ;
+    <http://syn.org/position> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_phaseContrastIndicator> .
+<http://syn.org/f8cec135-a123-4acc-9b6e-dea98c8d09cb>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_phaseContrastIndicator> ;
+    <http://syn.org/position> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_timeOfFlightContrastIndicator> .
+<http://syn.org/f357d778-cd69-49a1-bdef-9dc3b1ed60a2>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_timeOfFlightContrastIndicator> ;
+    <http://syn.org/position> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_arterialSpinLabelingContrastCode> .
+<http://syn.org/b6ae4e0a-9218-4158-b70b-4b935a6f7110>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_arterialSpinLabelingContrastCode> ;
+    <http://syn.org/position> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_steadyStatePulseSequenceCode> .
+<http://syn.org/5e4c7ad8-3c40-43a8-9059-19fa2464ae34>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_steadyStatePulseSequenceCode> ;
+    <http://syn.org/position> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_echoPlanarPulseSequenceIndicator> .
+<http://syn.org/85f7e4a0-f789-4950-b8ca-a43097234386>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_echoPlanarPulseSequenceIndicator> ;
+    <http://syn.org/position> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_saturationRecoveryIndicator> .
+<http://syn.org/75a1a9e7-978e-4c7a-8871-f0ef11b5fd56>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_saturationRecoveryIndicator> ;
+    <http://syn.org/position> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_spectrallySelectedSuppressionCode> .
+<http://syn.org/1a1f6004-f81c-4b0f-8aed-5b1fcafee2e1>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageAcquisitionProtocolElement_spectrallySelectedSuppressionCode> ;
+    <http://syn.org/position> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://syn.org/gdc/NonDICOMMRimages> <http://syn.org/hasColumn> <http://syn.org/gdc/NonDICOMMRimages/MRImageReconstructionProtocolElement_complexImageComponentCode> .
+<http://syn.org/7e4483e1-fd50-4849-b0cb-f198c524e39b>a <http://syn.org/ColumnPosition> ;
+<http://syn.org/template> <http://syn.org/gdc/NonDICOMMRimages> ;
+    <http://syn.org/column> <http://syn.org/gdc/NonDICOMMRimages/MRImageReconstructionProtocolElement_complexImageComponentCode> ;
+    <http://syn.org/position> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .

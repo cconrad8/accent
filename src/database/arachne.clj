@@ -4,7 +4,15 @@
             [arachne.aristotle.registry :as reg]
             [arachne.aristotle.query :as q]
             [clojure.java.io :as io])
-  (:import [java.io File]))
+  (:import [java.io File]
+           [org.apache.jena.util FileManager LocationMapper]))  ;; <- this was missing a closing paren
+
+(defn disable-remote-resolution! []
+  (let [fm (FileManager/get)
+        lm (.getLocationMapper fm)]
+    (.addAltEntry lm "http://purl.org/dc/terms/" "file:resources/rdf/vocab/dcterms.ttl")
+    (.addAltEntry lm "http://www.w3.org/2000/01/rdf-schema#" "file:resources/rdf/vocab/rdfs.ttl")
+    (.addAltEntry lm "http://www.w3.org/1999/02/22-rdf-syntax-ns#" "file:resources/rdf/vocab/rdf.ttl")))
 
 (defn get-all-turtle-files
   "Get all turtle files from resources directory"

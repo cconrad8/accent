@@ -143,9 +143,49 @@
 
 (defn wrap-read-csv 
   [{:keys [file]}]
-  (let [text (slurp file)]
-    {:result text 
-     :type :success}))
+  (let [is-url? (re-find #"^https?://" file)
+        retry-limit 3]
+
+    (letfn [(attempt-read [attempt]
+              (try
+                (if is-url?
+                  ;; Remote file (URL)
+                  (let [content (slurp file)]
+                    {:result content :type :success})
+                  ;; Local file
+                  (let [f (clojure.java.io/file file)]
+                    (if (.exists f)
+                      {:result (slurp f) :type :success}
+                      {:result (str "Error: Local file not found - " file)
+                       :type :error
+                       :error true})))
+                (catch java.io.FileNotFoundException e
+                  {:result (str "Error: File not found - " (.getMessage e))
+                   :type :error
+                   :error true})
+                (catch java.net.UnknownHostException e
+                  {:result (str "Error: Cannot reach host - " (.getMessage e))
+                   :type :error
+                   :error true})
+                (catch java.io.IOException e
+                  (let [msg (.getMessage e)]
+                    (if (and is-url? (< attempt retry-limit)
+                             (or (re-find #"529" msg)
+                                 (re-find #"429" msg)
+                                 (re-find #"Too many requests" msg)))
+                      (do
+                        (println (str "HTTP throttled (attempt " (inc attempt) "): " msg))
+                        (Thread/sleep (* 1000 (Math/pow 2 attempt))) ;; exponential backoff
+                        (attempt-read (inc attempt)))
+                      {:result (str "Error reading CSV file: " msg)
+                       :type :error
+                       :error true})))
+                (catch Exception e
+                  {:result (str "Error reading CSV file: " (.getMessage e))
+                   :type :error
+                   :error true})))]
+
+      (attempt-read 0))))
 
 (defn wrap-write-csv 
   [{:keys [data filename]}]
@@ -170,6 +210,18 @@
   (let [call-fn (get-in tool-call [:function :name])
         args    (json/parse-string (get-in tool-call [:function :arguments]) true)]
     (try
+      ;; Announce which function is being run
+      (println (str "🔧 Running tool function: " call-fn))
+
+      ;; Throttling delay with countdown
+      (println "Throttling to avoid rate limits. Please wait...")
+      (dotimes [i 60]
+        (print (format "\rWaiting %2d seconds..." (- 60 i)))
+        (flush)
+        (Thread/sleep 1000))
+      (println)
+
+      ;; Execute the tool function
       (let [result (case call-fn
                      "find_matching_attribute"         (wrap-find-matching-attribute args)
                      "get_attribute_meta"              (wrap-get-attribute-meta args)
@@ -178,9 +230,10 @@
                      "read_csv"                        (wrap-read-csv args)
                      "write_csv"                       (wrap-write-csv args)
                      (throw (ex-info "Invalid tool function" {:tool call-fn})))]
-        (->
-         (if (map? result) (merge  {:tool call-fn} result) {:tool call-fn :result result})
-         (with-next-tool-call)))
+        (-> (if (map? result)
+              (merge {:tool call-fn} result)
+              {:tool call-fn :result result})
+            (with-next-tool-call)))
       (catch Exception e
         {:tool   call-fn
          :result (.getMessage e)
